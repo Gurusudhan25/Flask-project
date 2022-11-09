@@ -1,0 +1,41 @@
+.w-custom
+{
+    width:500px;
+}
+.mt-custom
+{
+    margin-top:80px;
+}
+.mb-custom
+{
+    margin-bottom:30px;
+}
+.name{
+    margin-top: 10px;
+}
+.border
+{
+    border-style: solid;
+    border-width:thick;
+    border-radius: 20px;
+}
+.pl-custom
+{
+    padding-left: 20px;
+}
+body{
+    background: linear-gradient(45deg, blue, red);
+    height: 800px;
+    /* background-color: aliceblue; */
+}
+.container-fluid
+{
+    background: white;
+}
+.pt-custom
+{
+    padding-top: 20px;
+}
+h1 ,h2{
+    color:white
+}
