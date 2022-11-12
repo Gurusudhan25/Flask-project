@@ -21,7 +21,7 @@
 body {
   background: linear-gradient(45deg, blue, red);
   background-repeat: no-repeat;
-  height: 800px;
+  height: 100vmax;
 }
 .container-fluid {
   background: white;

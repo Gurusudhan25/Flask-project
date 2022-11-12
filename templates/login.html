@@ -1,24 +1,26 @@
 {% extends "base.html" %} {% block title %}Login{% endblock %} {%block content%}
-<div class="container-fluid w-custom mt-custom border border-dark pl-custom">
+<div
+  class="container-fluid w-custom mt-custom border border-dark pl-custom shadow-lg"
+>
   <form>
     <div class="name">
       <h3 align="center">Login</h3>
     </div>
     <div class="form-group">
-      <label for="email">Email Address</label>
+      <label for="email" class="pl-3">Email id</label>
       <input
         type="email"
-        class="form-control"
+        class="form-control border-solid border-top-0 border-left-0 border-right-0 shadow"
         id="email"
         name="email"
         placeholder="Enter email"
       />
     </div>
     <div class="form-group">
-      <label for="password">Password</label>
+      <label for="password" class="pl-3">Password</label>
       <input
         type="password"
-        class="form-control"
+        class="form-control border-solid border-top-0 border-left-0 border-right-0 shadow"
         id="password"
         name="password"
         placeholder="Enter password"
